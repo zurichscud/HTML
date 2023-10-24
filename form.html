@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表单测试</title>
+</head>
+<body>
+    <form method="get" action="">
+        姓名：<input type="text" name="name" placeholder="选择你的文件"> <br>
+        性别：
+        <div>
+            <input type="radio" name="sex" value="1">男
+            <input type="radio" name="sex" value="0">女
+        </div>
+        <div>
+            <input type="checkbox" name="code" value="java">java 
+            <input type="checkbox" name="code" value="golang">golang 
+            <input type="checkbox" name="code" value="python">python 
+        </div>
+        <div>
+            <input type="file" name="userfile" accept=".pdf, .doc" > 
+        </div>
+        <div>
+            <input type="time" name="time">
+            <input type="date" name="date">
+            <input type="datetime-local" name="time_data">
+        </div>
+        <div>
+            您的学号：<input type="number" name="id">
+        </div>
+        <input type="hidden" name="id" value="2022413999">
+        <input type="button" value="自定义按钮1">
+        <input type="reset" value="自定义按钮2">
+        <input type="submit" value="提交">
+        <div>
+            <select>
+                <option value="Beijing">北京</option>
+                <option value="Tianjing">天津</option>
+                <option value="Sanming">上海</option>
+            </select>
+        </div>
+        <textarea name="自我介绍" cols="30" rows="10">请输入您的自我介绍</textarea>
+
+    </form>
+    <div>
+        <p>Return random hash keys (aka fields) from the hash stored at key. If the provided count argument is positive, return a list of distinct hash keys, capped either at count or the hash size. If count is negative, the behavior changes and the command is allowed to return the same hash key multiple times. In this case, the number of returned fields is the absolute value of the specified count.
+        </p>
+        <ol>
+            <li>
+                Param: must not be null. count – number of fields to return.
+            </li>
+            <li>Return: null if key does not exist or when used in pipeline / transaction.</li>
+        </ol>
+    </div>
+
+</body>
+</html>
+            
